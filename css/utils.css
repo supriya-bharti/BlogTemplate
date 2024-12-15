@@ -2,10 +2,18 @@
 
 
 :root {
-    --main-bg-color: brown;
+    --main-bg-color: rgb(37, 33, 33);
     --font1: "Baloo Bhaina 2", sans-serif;
     --font2: "Roboto", sans-serif;
-   
+
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
 }
 
 .max-width-1 {
@@ -20,6 +28,11 @@
     margin: auto;
 }
 
+.my-2{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
 .btn {
     padding: 0px 20px;
     padding-top: 3px;
@@ -31,10 +44,11 @@
     transition: all 0.3s ease-in-out;
 }
 
-.btn:hover{
+.btn:hover {
     color: white;
     background: var(--main-bg-color);
 }
+
 .form-input {
     padding: 0px 5px;
     padding-top: 3px;
